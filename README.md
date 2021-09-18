@@ -18,7 +18,7 @@ First we imported the MechaCar_mpg.csv file to our active directory, and read it
 
 Now that we can see our data, we then designed a linear model to predict the mpg of MechaCar prorotypes, and create a summary of our data.
 
-### Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 
 In this section, we created a linear regression model to see if we could preduc the mpg by using several variables (vehicle length, vehicle weight, spoiler-angle, ground clearance, and all-wheel-drive). We then used the summary() function to determine the p-value and r-squared values for our linear regression model of our data. Please see below for the Linear Regression Model and the summary of the data:
 
@@ -36,7 +36,7 @@ Looking at our linear model, we can conclude that the slope is not considered to
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The linear progression model does a good job at predicting the MPG of MechaCar prototypes, but there are still some unrecorded variables that could alter our data's strength. Looking at our R-Squared value of 0.7149, we can determine that the efficacy of our linear regression model is about 71% accurate. 
 
-### Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 
 Our next step is to load our suspension coils data. The suspencion data is comprised of 150 different vehicle IDs, 3 different lot numbers, and corresponding PSI levels for each vehcile. We created summary tables for a Total Summary of the Mean, Median, Variance, and Standard Deviation of our data; and a Lot Summary Table to examine the 3 different lots the MechaCars are sorted into. Please see below for our Summary Tables:
 

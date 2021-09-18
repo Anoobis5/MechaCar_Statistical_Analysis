@@ -30,10 +30,8 @@ In this section, we created a linear regression model to see if we could preduc 
 
 When we examine our dataset, the most significant variables that provide a non-random amount of variance to the mpg-values are the Vehicle Length and the Ground Clearance. Examining the visuals above, the linear regression model shows that these variables tested against MPG result in p-values of 2.6e-12 for Vehicle Length and 5.21e-08 for Ground Clearance. The (Intercept) also has significance at 5.08e-8, indicating that there are other variables, not included in our dataset that have a significant impact on MPG.
 
-Looking at our linear model, we can conclude that the slope is not considered to be zero, because F-Statistic P-Value of 5.35X10^-11 is lower than a high level of significance. With this P-Value in mind, we would reject the null hypothesis. 
+Looking at our linear model, we can conclude that the slope is not considered to be zero, because some of our independent variables had a significant effect on the dependent variable. When we look at our P-Value of 5.35e-11, we see that the value is less than zero.
 
-
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The linear progression model does a good job at predicting the MPG of MechaCar prototypes, but there are still some unrecorded variables that could alter our data's strength. Looking at our R-Squared value of 0.7149, we can determine that the efficacy of our linear regression model is about 71% accurate. 
 
 ## Summary Statistics on Suspension Coils
@@ -43,7 +41,7 @@ Our next step is to load our suspension coils data. The suspencion data is compr
 #### Total Summary Table
 ![Suspension Coil Total Summary](https://user-images.githubusercontent.com/84881187/133894566-7ffe94f3-3518-450d-8cb1-d6bcdd929b5e.PNG)
 
-
+332
 
 #### Lot Summary Table
 ![lot summary](https://user-images.githubusercontent.com/84881187/133894573-0625356c-14ed-4e04-bc18-075f19ff80d1.PNG)

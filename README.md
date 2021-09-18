@@ -28,7 +28,7 @@ In this section, we created a linear regression model to see if we could preduc 
 ![p=Value and r-Squared Summary](https://user-images.githubusercontent.com/84881187/133893081-c0f5a62a-fcb2-4d9a-a756-f3a77ddff0cd.PNG)
 
 
-When we examine our dataset, the most significant variables that provide a non-random amount of variance to the mpg-values are the Vehicle Length and the Ground Clearance. Examining the visuals above, the linear regression model shows that these variables tested against MPG result in p-values of 2.6e-12 for Vehicle Length and 5.21e-08 for Ground Clearance. The (Intercept) also has significance at 5.08X10^-8, indicating that there are other variables, not included in our dataset that have a significant impact on MPG.
+When we examine our dataset, the most significant variables that provide a non-random amount of variance to the mpg-values are the Vehicle Length and the Ground Clearance. Examining the visuals above, the linear regression model shows that these variables tested against MPG result in p-values of 2.6e-12 for Vehicle Length and 5.21e-08 for Ground Clearance. The (Intercept) also has significance at 5.08e-8, indicating that there are other variables, not included in our dataset that have a significant impact on MPG.
 
 Looking at our linear model, we can conclude that the slope is not considered to be zero, because F-Statistic P-Value of 5.35X10^-11 is lower than a high level of significance. With this P-Value in mind, we would reject the null hypothesis. 
 
